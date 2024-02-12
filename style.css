@@ -1,0 +1,88 @@
+
+/* * {
+    outline: 2px solid red;
+} */
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Roboto'; */
+/* } */
+
+
+                                    /* HEADER */
+.header {
+    /* style header */
+    background-color: #1f2937;  
+}
+
+ul, .subtext {
+    /* stylize header links */
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    /* border: rounded edges; */
+}
+
+img {
+    width: 200px;
+}
+
+
+                                /* RANDOM INFO SECTION */
+/* used inline styling for title */
+.secondarytext{
+    font-size: 18px;
+}
+
+                                /* QUOTE SECTION */
+p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+                            /* CALL TO ACTION/BIG BLUE BOX SECTION */
+.calltoactionsection {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quotesection {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    /* used inline styling */
+}

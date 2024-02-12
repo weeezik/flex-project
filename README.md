@@ -12,3 +12,4 @@ For the section you’re working on, begin by getting all the content onto the p
 When you finish, don’t forget to push it up to GitHub!
 
 # My Notes
+
