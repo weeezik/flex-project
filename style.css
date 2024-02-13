@@ -3,17 +3,17 @@
     outline: 2px solid red;
 } */
 
-/* body {
+body {
     display: flex;
     flex-direction: column;
-    /* font-family: 'Roboto'; */
-/* } */
+    font-family: "Roboto", sans-serif;
+}
 
 
                                     /* HEADER */
 .header {
     /* style header */
-    background-color: #1f2937;  
+    background-color: #1f2937;
 }
 
 ul, .subtext {
@@ -51,6 +51,7 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    font-weight: 300;
 }
 
                             /* CALL TO ACTION/BIG BLUE BOX SECTION */
