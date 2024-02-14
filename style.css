@@ -36,7 +36,7 @@ ul {
 }
 
         /* HERO SECTION */
-button {
+#topbutton {
     background-color: #3882f6;
     color: #f9faf8;
     /* border: rounded edges; */
@@ -142,21 +142,40 @@ p {
 
 }
 
-
-
-
-
-
-
-
-
-
-
                             /* CALL TO ACTION/BIG BLUE BOX SECTION */
 .calltoactionsection {
     background-color: #3882f6;
     color: #f9faf8;
+    margin: 75px 200px;
+    border-radius: 8px;
+    padding: 30px 75px;
 }
+
+#bottombutton {
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px; 
+    font-size: 14px;
+    border-style: solid;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+#action {
+    font-weight: bold;
+    font-size: large;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+    flex-wrap: nowrap;
+}
+
 
 
                             /* FOOTER */
@@ -164,4 +183,7 @@ p {
 .footer {
     background-color: #1f2937;
     /* used inline styling */
+    padding: 20px;
+    margin: 0;
+    text-align: center;
 }
