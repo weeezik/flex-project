@@ -109,7 +109,7 @@ img {
 
 .secondarytext{
     font-size: 14px;
-    max-width: 120px;
+    max-width: 140px;
     text-align: center;
 }
 
@@ -121,6 +121,11 @@ p {
     color: #1f2937;
     font-weight: 300;
 }
+
+
+
+
+
 
                             /* CALL TO ACTION/BIG BLUE BOX SECTION */
 .calltoactionsection {
