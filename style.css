@@ -14,37 +14,112 @@ body {
 .header {
     /* style header */
     background-color: #1f2937;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;    
+    align-items: center;
 }
 
-ul, .subtext {
+ul {
     /* stylize header links */
     font-size: 18px;
     color: #e5e7eb;
     list-style-type: none;
+    /* flex */
+    display: flex;
+    gap: 40px;
+    text-wrap: nowrap;
 }
 
-.hero {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
+        /* HERO SECTION */
 button {
     background-color: #3882f6;
     color: #f9faf8;
     /* border: rounded edges; */
+    border-radius: 8px;
+    font-size: 14px;
+    color: #f9faf8;
+    border: 0;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 img {
-    width: 200px;
+    width: 600px;
+    height: auto;
+    display: flex;
 }
+
+
+.herosection {
+    /* style */
+    background-color: #1f2937;
+    /* flex */
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;  
+    justify-content: space-between;
+    gap: 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.lefthero{
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+
+
 
 
                                 /* RANDOM INFO SECTION */
 /* used inline styling for title */
-.secondarytext{
-    font-size: 18px;
+/* .boxes {
+    display: flex;
+    justify-content: center;
+} */
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+    margin-bottom: 100px;
 }
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoimage {
+    max-width: 100px;
+    border-radius: 12px;
+    
+} 
+
+.secondarytext{
+    font-size: 14px;
+    max-width: 120px;
+    text-align: center;
+}
+
 
                                 /* QUOTE SECTION */
 p {
