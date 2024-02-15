@@ -13,3 +13,6 @@ When you finish, don’t forget to push it up to GitHub!
 
 # My Notes
 
+To access on the web:
+
+weeezik.github.io/flex-project
